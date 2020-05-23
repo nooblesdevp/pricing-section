@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: rgb(43, 168, 226); */
+
+}
+.table-pricing{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 100px;
+
+}.col{
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+.table{
+    border-radius: 5px ;
+/* border: none; */
+    padding: 40px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+    background-color: rgb(132, 191, 247);
+    color: white;
+
+}
+.table h2{
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 0;
+    /* margin-bottom: 10px; */
+
+}
+.table ul{
+    padding: 0;
+    margin: 0;
+}
+.table ul li{
+    list-style: none;
+    padding: 10px 0;
+
+}
+.table .price{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.table .price h2{
+    font-size: 40px;
+}
+.table span{
+    display: block;
+    font-size: 16px;
+}
+.table a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 10px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    background-color:rgb(10, 111, 206);
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    transition: 0.5s ease;
+    /* width: 60%;
+    margin-left: 33px; */
+    color: white
+}    
+.table a:hover{
+    background-color: rgb(43, 168, 226);
+    color: white;
+}
+.table .pop{
+    padding: 8px 90px;
+    background-color:  rgb(47, 214, 236);
+    color: white;
+    text-transform: capitalize;
+    transform: rotate(45deg);
+    /* float: right; */
+    position: absolute;
+    font-size: 18px;
+    top: 20px;
+    right: -75px;
+}
+#pop{
+    background-color: rgb(61, 147, 228);
+    color: #FFF;
+    top: -5%;
+
+}
+#pop a{
+    color: rgb(43, 168, 226);
+    background-color: white;
+    border: 2px solid #fff;
+
+}
